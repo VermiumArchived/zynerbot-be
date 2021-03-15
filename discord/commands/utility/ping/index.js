@@ -1,9 +1,10 @@
-exports = {
-  name: "Ping",
-  description: "Checks latency",
-  category: "Utility",
-  permissions: [],
-  execute: () => {
-    console.log("Executed command ping");
-  },
-};
+exports.metadata = {
+  "name": "ping",
+  "description": "Checks latency",
+  "category": "Utility",
+  "permissions": [],
+}
+
+exports.execute: () => {
+  console.log("Executed command ping");
+}
