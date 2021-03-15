@@ -1,4 +1,4 @@
-module.exports = {
+exports = {
   name: "Ping",
   description: "Checks latency",
   category: "Utility",
